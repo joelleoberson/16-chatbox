@@ -22,6 +22,7 @@ header {
   padding: 0px 20px;
   position: sticky;
   top: 0px;
+  color: #28343F;
 }
 
 .chatbox-container {
@@ -43,12 +44,13 @@ header {
 
 .message-box {
   margin: 0px 20px 20px 20px;
-  min-width: 65px;
+  min-width: 40px;
 }
 
 .message-box-transmitter .message-content {
   background: #7B8E86;
   border-radius: 50px 50px 0px 50px;
+  color: #28343F;
 }
 
 .message-box-transmitter .hour {
@@ -57,6 +59,7 @@ header {
 
 .message-box-recipient .message-content {
   background: #DD7C5E;
+  color: #28343F;
 }
 
 footer {
@@ -68,7 +71,15 @@ footer {
   bottom: 0px;
 }
 
+.hour {
+  color: #28343F;
+}
+
 input {
   background: #9DB3A8;
   border-radius: 50px;
+}
+
+a {
+  color: #28343F;
 }
