@@ -29,7 +29,7 @@ header {
   max-width: 365px;
   margin: auto;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
 }
 
 
@@ -48,6 +48,7 @@ header {
   background: #7B8E86;
   border-radius: 50px 50px 0px 50px;
   color: #28343F;
+  padding: 20px;
 }
 
 .message-box-transmitter .hour {
@@ -57,6 +58,11 @@ header {
 .message-box-recipient .message-content {
   background: #DD7C5E;
   color: #28343F;
+  padding: 20px;
+}
+
+.message-box-transmitter {
+  align-self: flex-end;
 }
 
 footer {
