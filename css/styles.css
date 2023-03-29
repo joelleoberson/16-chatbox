@@ -4,7 +4,19 @@ body {
   background: #ddd;
 }
 
+html, body {
+  margin: 0%;
+}
+
 img {
   display: block;
   max-width: 100%;
+}
+
+.message-box-transmitter .message-content {
+  background: #7B8E86;
+}
+
+.message-box-recipient .message-content {
+  background: #DD7C5E;
 }
