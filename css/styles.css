@@ -43,7 +43,7 @@ header {
 
 .message-box {
   margin: 0px 20px 20px 20px;
-  max-width: 80px;
+  min-width: 65px;
 }
 
 .message-box-transmitter .message-content {
@@ -56,4 +56,13 @@ header {
 
 .message-box-recipient .message-content {
   background: #DD7C5E;
+}
+
+footer {
+  background: #7B8E86;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  bottom: 0px;
 }
