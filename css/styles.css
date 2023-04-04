@@ -1,7 +1,6 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: url(../img/mode.jpg);
 }
 
 
@@ -87,4 +86,8 @@ input {
 
 a {
   color: #28343F;
+}
+
+.chatbox-container{
+  background: url(../img/mode.jpg);
 }
